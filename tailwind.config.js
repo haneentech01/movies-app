@@ -9,16 +9,26 @@ export default {
         bgColor: "#fff",
       },
       padding: {
-        padding: "4.5rem 1.5rem",
+        custom: "4.5rem 1.5rem",
       },
 
       fontFamily: {
-        fontFamily: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
 
       boxShadow: {
-        boxShadow: " 0 0 4px rgb(14 55 54 / 15%)",
+        custom: " 0 0 4px rgb(14 55 54 / 15%)",
       },
+    },
+
+    screens: {
+      xxs: { max: "300px" },
+      xs: { max: "370px" },
+      sm: { max: "472px" },
+      md: { max: "774px" },
+      lg: { max: "991px" },
+      xl: { max: "1080px" },
+      "2xl": { max: "1280px" },
     },
   },
   plugins: [],
